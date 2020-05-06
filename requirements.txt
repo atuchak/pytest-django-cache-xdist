@@ -1,0 +1,12 @@
+-e .
+setuptools
+django
+pytest-django
+django-redis-cache
+hiredis
+pytest-xdist
+tox
+wheel
+twine
+flake8
+
