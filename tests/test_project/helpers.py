@@ -1,2 +1,2 @@
 def make_key(key: str, key_prefix: str, version: int) -> bytes:
-    return f'{key_prefix}{key}'.encode()
+    return '{key_prefix}{key}'.format(key_prefix=key_prefix, key=key).encode()
