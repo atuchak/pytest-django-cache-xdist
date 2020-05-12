@@ -23,5 +23,5 @@ deploy:
   username: atuchak
   edge: true
   skip_existing: true
-  on:
-    tags: true
+#  on:
+#    tags: true

@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import os
 import codecs
+import os
+
 from setuptools import setup
 
 
@@ -13,7 +14,7 @@ def read(fname):
 
 setup(
     name='pytest-django-cache-xdist',
-    version='0.1.0',
+    version='0.1.1',
     author='Anton Tuchak',
     author_email='anton.tuchak@gmail.com',
     maintainer='Anton Tuchak',
