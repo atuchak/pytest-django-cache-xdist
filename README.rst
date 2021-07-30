@@ -9,6 +9,7 @@ pytest-django-cache-xdist
 
 A pytest-django-cache-xdist plugin for pytest
 
+This plugin makes your django cache threadsafe by ensuring that each xdist process uses a unique cache prefix.
 
 
 Installation
@@ -19,11 +20,10 @@ You can install "pytest-django-cache-xdist" via `pip`_ from `PyPI`_::
     $ pip install pytest-django-cache-xdist
 
 
-
 Usage
 -----
 
-* TODO
+Once installed the a fixture configures the cache settings every time pytest is run.
 
 
 License
